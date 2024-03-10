@@ -6,13 +6,13 @@
 #include <stdexcept>
 
 class Circle {
- private:
+private:
     static const double PI;
 
     double radius;
     double ference;
     double area;
- public:
+public:
     explicit Circle(double radius = 0);
 
     void SetFerence(double ference);
